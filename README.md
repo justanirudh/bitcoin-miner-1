@@ -31,8 +31,10 @@ be found at [https://hexdocs.pm/project1](https://hexdocs.pm/project1).
 
 ##  How to run
 epmd -daemon #runs the Erlang port mapper daemon
+
 mix escript.build #compiles the project and creates an executable named 'miner'
 
 ./miner 3 (as a master, to find bitcoins with 3 prepending zeroes)
+
 ./miner <ip-address> (as a slave, to request for work)
 
