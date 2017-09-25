@@ -1,6 +1,6 @@
 # Miner
 
-# Design:
+## Design:
 A master spawns 1000 slave processes
 Each slave process mines coins independent of any other slave process using random string generators
 When a slave finds a coin, it send it to the master
@@ -29,7 +29,8 @@ and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/project1](https://hexdocs.pm/project1).
 
 
-# How to run
+##  How to run
 mix escript.build
+
 ./miner
 
